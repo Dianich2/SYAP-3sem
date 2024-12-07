@@ -1,0 +1,46 @@
+form button {
+  width: 150px;
+  height: 40px;
+}
+form .group {
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+form .group .errormessage {
+  display: block;
+  width: 100%;
+  color: red;
+  font-size: 15px;
+}
+form .group label {
+  width: 40%;
+  display: block;
+  font-size: 22px;
+}
+form .group input, form .group select {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  width: 30%;
+  border-radius: 5px;
+  background-color: rgb(197, 197, 197);
+}
+form .group input[type=checkbox], form .group select[type=checkbox] {
+  width: auto;
+  height: auto;
+  align-self: flex-start;
+  transform: scale(1.8);
+  margin: 0 0 5px 5px;
+}
+form .group textarea {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgb(197, 197, 197);
+  height: 70px;
+}
+form .group .radiobox {
+  display: flex;
+  width: 30%;
+}/*# sourceMappingURL=formfirst.css.map */

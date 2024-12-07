@@ -1,0 +1,82 @@
+.List {
+  background-color: rgb(188, 185, 185);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.List h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.List .inp {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.List .inp input {
+  width: 70%;
+  margin-left: 20px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.List .inp #add {
+  width: 20%;
+  height: 45px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.List .buttons {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.List .buttons #showAll, .List .buttons #showDone, .List .buttons #showNoDone {
+  width: 20%;
+  height: 60px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.List #tasks {
+  width: 90%;
+}
+.List #tasks li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  height: 60px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.List #tasks li input {
+  width: 45%;
+  font-size: 18px;
+}
+.List #tasks li input[type=checkbox] {
+  width: 10%;
+  height: 50%;
+}
+.List #tasks li button {
+  width: 18%;
+  cursor: pointer;
+  height: 70%;
+  color: white;
+  border-radius: 5px;
+}
+.List #tasks li button#red {
+  background-color: blue;
+}
+.List #tasks li button#rem {
+  background-color: red;
+}/*# sourceMappingURL=OOPfirst.css.map */

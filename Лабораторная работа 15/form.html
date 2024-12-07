@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Форма</title>
+        <link rel="stylesheet" href="css/formfirst.css">
+    </head>
+    <body>
+        <h1>Заполните форму:</h1>
+        <form id="formsub">
+            <div class="group">
+                <label for="surname">Фамилия</label>
+                <input type="text" name="surname" id="surname" required>
+                <div class="errormessage" id="surnameerror"></div>
+            </div>
+            <div class="group">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" required autocomplete="Паша">
+                <div class="errormessage" id="nameerror"></div>
+            </div>
+
+            <div class="group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required autocomplete="pasha@mail.ru">
+                <div class="errormessage" id="emailerror"></div>
+            </div>
+
+            <div class="group">
+                <label for="tel">Телефон(0xx)xxx-xx-xx</label>
+                <input type="tel" name="tel" id="tel" required autocomplete="0292602834">
+                <div class="errormessage" id="telerror"></div>
+            </div>
+            <div class="group">
+                <label for="cities">Город</label>
+                <select id="cities" name="cities" id="cities" required>
+                    <option value="Минск">Минск</option>
+                    <option value="Брест">Брест</option>
+                    <option value="Гродно">Гродно</option>
+                    <option value="Могилев">Могилев</option>
+                    <option value="Гомель">Гомель</option>
+                    <option value="Витебск">Витебск</option>
+                </select>
+            </div>
+            <div class="group">
+                <label for="BSTU">Я учусь в БГТУ</label>
+                <input type="checkbox" name="BSTU" id="BSTU">
+            </div>
+            <div class="group">
+                <label for="BSTU">На каком курсе Вы учитесь?</label>
+                <div class="radiobox" name="ra" id="ra">
+                    <label><input type="radio" name="r" value="1">1</label>
+                    <label><input type="radio" name="r" value="2">2</label>
+                    <label><input type="radio" name="r" value="3">3</label>
+                    <label><input type="radio" name="r" value="4">4</label>
+                </div>
+            </div>
+            <div class="group">
+                <label for="about">Расскажите о себе</label>
+                <textarea name="about" id="about" required></textarea>
+                <div class="errormessage" id="abouterror"></div>
+            </div>
+            <button id="sub" type="submit">Проверить</button>
+        </form>
+        <script src="form.js"></script>
+    </body>
+</html>

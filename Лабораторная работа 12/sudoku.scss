@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    margin:15px auto;
+    font-size: 25px;
+    tr{
+        td{
+            border: 5px solid gray;
+            padding: 20px 20px 20px 20px;
+            &.bu{
+                border-top: 7px solid black;
+            }
+            &.bd{
+                border-bottom: 7px solid black;
+            }
+            &.br{
+                border-right: 7px solid black;
+            }
+            &.bl{
+                border-left: 7px solid black;
+            }
+            input{
+                width: 20px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+button#generate, button#restart, button#check, button#newField{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font-size: 18px;
+}
